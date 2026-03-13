@@ -13,6 +13,14 @@
 "info.server" = "Server";
 "info.ip_address" = "IP Address";
 "info.connection_time" = "Connection Time";
+"info.ip_label" = "IP";
+"info.mbps" = "MB/s";
+
+//Country
+"country.germany" = "Germany";
+"country.usa" = "USA";
+"country.japan" = "Japan";
+"country.netherlands" = "Netherlands";
 
 // Messages
 "message.select_server" = "Select a server and connect";
@@ -24,3 +32,16 @@
 // Titles
 "settings.title" = "Settings";
 "help.title" = "Help";
+
+// Settings
+"settings.auto_connect" = "Auto-connect on startup";
+"settings.show_notifications" = "Show notifications";
+"settings.connection_boost" = "Connection boost";
+
+// Help
+"help.connection_title" = "Connection";
+"help.connection_description" = "Click the power button to connect or disconnect from VPN";
+"help.server_title" = "Choose Server";
+"help.server_description" = "Tap the server card to select a different location";
+"help.settings_title" = "Settings";
+"help.settings_description" = "Access app preferences from the toolbar";

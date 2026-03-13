@@ -75,7 +75,7 @@ struct HomeView: View {
                     Text(viewModel.selectedServer.name)
                         .font(.system(size: 16, weight: .semibold))
                         .foregroundStyle(.primary)
-                    Text("IP: \(viewModel.selectedServer.ipAddress)")
+                    Text("\(Localization.Info.ipLabel): \(viewModel.selectedServer.ipAddress)")
                         .font(.system(size: 12, weight: .regular))
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -131,7 +131,7 @@ struct HomeView: View {
                 HStack(spacing: 4) {
                     Text(viewModel.connectionStatus == .connected ? "21.6" : "0" )
                         .font(.system(size: 16, weight: .bold))
-                    Text("MB/s")
+                    Text(Localization.Info.mbps)
                         .font(.system(size: 12, weight: .regular))
                 }
             }
@@ -142,7 +142,7 @@ struct HomeView: View {
                 HStack(spacing: 6) {
                     Text(viewModel.connectionStatus == .connected ? "15.6" : "0")
                         .font(.system(size: 16, weight: .bold))
-                    Text("MB/s")
+                    Text(Localization.Info.mbps)
                         .font(.system(size: 12, weight: .regular))
                 }
             }

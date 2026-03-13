@@ -22,10 +22,10 @@ enum VPNServer: String, CaseIterable {
     
     var name: String {
         switch self {
-        case .germany: "Germany"
-        case .usa: "USA"
-        case .japan: "Japan"
-        case .netherlands: "Netherlands"
+        case .germany: Localization.Country.germany
+        case .usa: Localization.Country.usa
+        case .japan: Localization.Country.japan
+        case .netherlands: Localization.Country.netherlands
         }
     }
     

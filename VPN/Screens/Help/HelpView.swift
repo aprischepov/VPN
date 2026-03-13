@@ -39,20 +39,20 @@ struct HelpView: View {
         VStack(alignment: .leading, spacing: 16) {
             HelpItem(
                 icon: "power",
-                title: "Connection",
-                description: "Click the power button to connect or disconnect from VPN"
+                title: Localization.Help.connectionTitle,
+                description: Localization.Help.connectionDescription
             )
             
             HelpItem(
                 icon: "map",
-                title: "Choose Server",
-                description: "Tap the server card to select a different location"
+                title: Localization.Help.serverTitle,
+                description: Localization.Help.serverDescription
             )
             
             HelpItem(
                 icon: "gearshape",
-                title: "Settings",
-                description: "Access app preferences from the toolbar"
+                title: Localization.Help.settingsTitle,
+                description: Localization.Help.settingsDescription
             )
         }
         .padding(.vertical, 16)

@@ -25,6 +25,15 @@ enum Localization {
         static let server = String(localized: "info.server")
         static let ipAddress = String(localized: "info.ip_address")
         static let connectionTime = String(localized: "info.connection_time")
+        static let ipLabel = String(localized: "info.ip_label")
+        static let mbps = String(localized: "info.mbps")
+    }
+    
+    enum Country {
+        static let germany = String(localized: "country.germany")
+        static let usa = String(localized: "country.usa")
+        static let japan = String(localized: "country.japan")
+        static let netherlands = String(localized: "country.netherlands")
     }
     
     enum Messages {
@@ -39,5 +48,20 @@ enum Localization {
     enum Titles {
         static let settingsTitle = String(localized: "settings.title")
         static let helpTitle = String(localized: "help.title")
+    }
+    
+    enum Settings {
+        static let autoConnect = String(localized: "settings.auto_connect")
+        static let showNotifications = String(localized: "settings.show_notifications")
+        static let connectionBoost = String(localized: "settings.connection_boost")
+    }
+    
+    enum Help {
+        static let connectionTitle = String(localized: "help.connection_title")
+        static let connectionDescription = String(localized: "help.connection_description")
+        static let serverTitle = String(localized: "help.server_title")
+        static let serverDescription = String(localized: "help.server_description")
+        static let settingsTitle = String(localized: "help.settings_title")
+        static let settingsDescription = String(localized: "help.settings_description")
     }
 }

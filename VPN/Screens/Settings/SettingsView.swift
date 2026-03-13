@@ -39,21 +39,21 @@ struct SettingsView: View {
     }
     
     private var settingsGroup: some View {
-        VStack(spacing: 0) {
-            SettingsToggle(
-                title: "Auto-connect on startup",
-                isOn: $autoConnect
-            )
-            Divider().padding(.leading, 20)
-            SettingsToggle(
-                title: "Show notifications",
-                isOn: $showNotifications
-            )
-            Divider().padding(.leading, 20)
-            SettingsToggle(
-                title: "Connection boost",
-                isOn: $connectionBoost
-            )
+            VStack(spacing: 0) {
+                SettingsToggle(
+                    title: Localization.Settings.autoConnect,
+                    isOn: $autoConnect
+                )
+                Divider().padding(.leading, 20)
+                SettingsToggle(
+                    title: Localization.Settings.showNotifications,
+                    isOn: $showNotifications
+                )
+                Divider().padding(.leading, 20)
+                SettingsToggle(
+                    title: Localization.Settings.connectionBoost,
+                    isOn: $connectionBoost
+                )
         }
     }
 }
