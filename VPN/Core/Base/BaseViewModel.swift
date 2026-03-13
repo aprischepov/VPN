@@ -11,26 +11,26 @@ import Combine
 class BaseViewModel: ObservableObject {
     var cancellable = Set<AnyCancellable>()
     
+    @Injected var logger: LoggerServiceProtocol
+    
     init() {
         bind()
         logInitViewModel()
     }
+    
+    func bind() {}
     
     deinit {
         logDeinitViewModel()
     }
 }
 
-extension BaseViewModel {
-    func bind() {}
-}
-
 private extension BaseViewModel {
     func logInitViewModel() {
-        LoggerService.shared.log("\(Self.self) init")
+        logger.log("\(Self.self) init")
     }
     
     func logDeinitViewModel() {
-        LoggerService.shared.log("\(Self.self) deinit")
+        logger.log("\(Self.self) deinit")
     }
 }

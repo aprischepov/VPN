@@ -1,0 +1,26 @@
+// Status
+"status.not_connected" = "Not Connected";
+"status.connecting" = "Connecting...";
+"status.connected" = "Connected";
+
+// Buttons
+"button.connect" = "CONNECT";
+"button.disconnect" = "DISCONNECT";
+"button.connecting" = "CONNECTING";
+
+// Server
+"server.location" = "Server Location";
+"info.server" = "Server";
+"info.ip_address" = "IP Address";
+"info.connection_time" = "Connection Time";
+
+// Messages
+"message.select_server" = "Select a server and connect";
+
+// Toolbar
+"toolbar.settings" = "Settings";
+"toolbar.help" = "Help";
+
+// Titles
+"settings.title" = "Settings";
+"help.title" = "Help";

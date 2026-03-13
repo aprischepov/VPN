@@ -1,0 +1,26 @@
+// Status 
+"status.not_connected" = "Не подключено";
+"status.connecting" = "Подключение...";
+"status.connected" = "Подключено";
+
+// Buttons 
+"button.connect" = "ПОДКЛЮЧИТЬ";
+"button.disconnect" = "ОТКЛЮЧИТЬ";
+"button.connecting" = "ПОДКЛЮЧЕНИЕ";
+
+// Server 
+"server.location" = "Расположение сервера";
+"info.server" = "Сервер";
+"info.ip_address" = "IP адрес";
+"info.connection_time" = "Время подключения";
+
+// Messages 
+"message.select_server" = "Выберите сервер и подключитесь";
+
+// Toolbar 
+"toolbar.settings" = "Настройки";
+"toolbar.help" = "Помощь";
+
+// Titles 
+"settings.title" = "Настройки";
+"help.title" = "Помощь";
