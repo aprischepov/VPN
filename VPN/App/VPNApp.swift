@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct VPNApp: App {
+    init() {
+        DIContainer.shared.registerDependencies()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
+        .windowResizability(.contentSize)
     }
 }
