@@ -1,0 +1,47 @@
+// Status
+"status.not_connected" = "Не подключено";
+"status.connecting" = "Подключение...";
+"status.connected" = "Подключено";
+
+// Buttons
+"button.connect" = "ПОДКЛЮЧИТЬ";
+"button.disconnect" = "ОТКЛЮЧИТЬ";
+"button.connecting" = "ПОДКЛЮЧЕНИЕ";
+
+// Server
+"server.location" = "Выбор сервера";
+"info.server" = "Сервер";
+"info.ip_address" = "IP адрес";
+"info.connection_time" = "Время подключения";
+"info.ip_label" = "IP";
+"info.mbps" = "МБ/с";
+
+//Country
+"country.germany" = "Германия";
+"country.usa" = "США";
+"country.japan" = "Япония";
+"country.netherlands" = "Недерланды";
+
+// Messages
+"message.select_server" = "Выберите сервер и подключитесь";
+
+// Toolbar
+"toolbar.settings" = "Настройки";
+"toolbar.help" = "Помощь";
+
+// Titles
+"settings.title" = "Настройки";
+"help.title" = "Помощь";
+
+// Settings
+"settings.auto_connect" = "Автоподключение при запуске";
+"settings.show_notifications" = "Показывать уведомления";
+"settings.connection_boost" = "Ускорение соединения";
+
+// Help
+"help.connection_title" = "Подключение";
+"help.connection_description" = "Нажмите кнопку питания для подключения или отключения от VPN";
+"help.server_title" = "Выбор сервера";
+"help.server_description" = "Нажмите на карточку сервера для выбора другой локации";
+"help.settings_title" = "Настройки";
+"help.settings_description" = "Откройте настройки приложения из панели инструментов";
